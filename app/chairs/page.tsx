@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ChevronLeft } from "lucide-react"
+import Header from "@/components/Header"
 
 export default function ChairsPage() {
   const products = [
@@ -11,20 +12,6 @@ export default function ChairsPage() {
         "Versatile and reliable folding chairs ideal for any event. Lightweight yet sturdy, these chairs are perfect for ceremonies, receptions, and outdoor gatherings.",
       image: "/Chairs/chair2.jpg",
       features: ["Easy to transport", "Weather resistant", "Guest comfort", "Quick setup"],
-    },
-    {
-      name: "Padded Event Chairs",
-      description:
-        "Extra comfort meets classic style. Our padded chairs ensure your guests stay comfortable throughout longer events like weddings and conferences.",
-      image: "/Chairs/chair3.jpg",
-      features: ["Cushioned seats", "Ergonomic design", "Formal appearance", "Stackable"],
-    },
-    {
-      name: "Chiavari Chairs",
-      description:
-        "Timeless elegance for upscale celebrations. These beautiful chairs are a wedding favorite, adding a touch of sophistication to any venue.",
-      image: "/Chairs/chair4.jpg",
-      features: ["Gold or silver options", "Classic design", "Photo-ready", "Premium quality"],
     },
     {
       name: "Garden Party Seating",
@@ -37,55 +24,7 @@ export default function ChairsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-2">
-              <span className="font-bold text-xl text-primary">Celebration Tent & Lighting</span>
-            </Link>
-
-            <div className="hidden md:flex items-center gap-6">
-              <Link href="/" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                HOME
-              </Link>
-              <Link
-                href="/tents"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                TENTS
-              </Link>
-              <Link href="/chairs" className="text-sm font-medium hover:text-primary transition-colors">
-                CHAIRS
-              </Link>
-              <Link
-                href="/tables"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                TABLES
-              </Link>
-              <Link
-                href="/floors"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                FLOORS
-              </Link>
-              <Link
-                href="/add-ons"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                ADD-ONS
-              </Link>
-              <Link
-                href="/faqs"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                FAQS
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Header />
 
       {/* Hero Section */}
       <section className="relative h-[300px] flex items-center justify-center mt-16">

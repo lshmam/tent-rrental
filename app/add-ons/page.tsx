@@ -2,16 +2,10 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ChevronLeft } from "lucide-react"
+import Header from "@/components/Header"
 
 export default function AddOnsPage() {
   const products = [
-    {
-      name: "Crystal Chandeliers",
-      description:
-        "Make a statement with our stunning crystal chandeliers. Each piece creates a focal point that photographs beautifully and impresses every guest.",
-      image: "/Miscellaneous/chandelier.jpg",
-      features: ["Crystal detail", "Dimmable", "Various sizes", "Installed by us"],
-    },
     {
       name: "Bistro String Lights",
       description:
@@ -42,57 +36,10 @@ export default function AddOnsPage() {
     },
   ]
 
+
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-2">
-              <span className="font-bold text-xl text-primary">Celebration Tent & Lighting</span>
-            </Link>
-
-            <div className="hidden md:flex items-center gap-6">
-              <Link href="/" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                HOME
-              </Link>
-              <Link
-                href="/tents"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                TENTS
-              </Link>
-              <Link
-                href="/chairs"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                CHAIRS
-              </Link>
-              <Link
-                href="/tables"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                TABLES
-              </Link>
-              <Link
-                href="/floors"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                FLOORS
-              </Link>
-              <Link href="/add-ons" className="text-sm font-medium hover:text-primary transition-colors">
-                ADD-ONS
-              </Link>
-              <Link
-                href="/faqs"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                FAQS
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Header />
 
       {/* Hero Section */}
       <section className="relative h-[300px] flex items-center justify-center mt-16">
