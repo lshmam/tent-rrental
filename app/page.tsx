@@ -100,14 +100,14 @@ export default function HomePage() {
 
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-balance">
-            TRULY
+            CREATE
             <br />
-            MEMORABLE
+            UNFORGETTABLE MOMENTS
           </h1>
           <p className="text-white text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed text-pretty">
-            Welcome to Celebration Tent and Lighting House Inc.! From elegant tents and stylish tables to comfy chairs and stunning stages, we've
-            got you covered. Get ready to elevate your celebration to the next level with our top-notch rental services.
-            Your dream event starts here!
+            Transform any venue into a stunning celebration space. From premium tent structures and elegant furniture
+            to ambient lighting and decor, we bring your vision to life. Serving Surrey and the Greater Vancouver area
+            with exceptional event rentals.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8">
@@ -140,8 +140,7 @@ export default function HomePage() {
                 <h3 className="text-xl font-semibold mb-2 text-blue-600">Tents</h3>
                 <p className="text-sm text-muted-foreground mb-3">2 Products</p>
                 <p className="text-sm">
-                  Get ready to elevate your event with our rental tents. Experience the perfect blend of style and
-                  professionalism.
+                  Premium frame and marquee tents for any occasion. Weather-resistant and professionally installed.
                 </p>
               </CardContent>
             </Card>
@@ -155,7 +154,7 @@ export default function HomePage() {
                 <h3 className="text-xl font-semibold mb-2 text-blue-600">Chairs</h3>
                 <p className="text-sm text-muted-foreground mb-3">4 Products</p>
                 <p className="text-sm">
-                  Take a seat in style with our elegant chairs and enhance the sophistication and comfort.
+                  Comfortable seating options from classic folding to elegant chiavari. Perfect for any guest count.
                 </p>
               </CardContent>
             </Card>
@@ -169,8 +168,7 @@ export default function HomePage() {
                 <h3 className="text-xl font-semibold mb-2 text-blue-600">Tables</h3>
                 <p className="text-sm text-muted-foreground mb-3">4 Products</p>
                 <p className="text-sm">
-                  Gather around in style with our sleek tables and create a memorable evening with our elegant and
-                  versatile options.
+                  Round, rectangular, and cocktail tables available. Complete with linens for a polished look.
                 </p>
               </CardContent>
             </Card>
@@ -183,7 +181,7 @@ export default function HomePage() {
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-semibold mb-2 text-blue-600">Floors</h3>
                 <p className="text-sm text-muted-foreground mb-3">3 Products</p>
-                <p className="text-sm">Dance the night away on our stylish flooring options.</p>
+                <p className="text-sm">Professional dance floors and staging platforms for memorable celebrations.</p>
               </CardContent>
             </Card>
 
@@ -194,9 +192,9 @@ export default function HomePage() {
               </div>
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-semibold mb-2 text-blue-600">Add-ons</h3>
-                <p className="text-sm text-muted-foreground mb-3">2 Products</p>
+                <p className="text-sm text-muted-foreground mb-3">5 Products</p>
                 <p className="text-sm">
-                  We've got you covered with our fantastic add-ons to take your event to the next level.
+                  Lighting, fans, bars, and more. Everything you need to complete your event setup.
                 </p>
               </CardContent>
             </Card>
@@ -212,11 +210,12 @@ export default function HomePage() {
             <div>
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-2xl font-bold">Celebration Tent and Lighting House Inc.</h3>
-                <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white">
-                  Write a review
+                <Button asChild size="sm" className="bg-blue-600 hover:bg-blue-700 text-white">
+                  <a href="https://www.google.com/search?sca_esv=7158150de61051ff&rlz=1C1RXQR_enCA1114CA1114&sxsrf=AE3TifPsF33zTjGlUiG4_CP4MeGABDiWFA:1767733986363&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E8VI_8JpSRrJm5-0RRH7NradLPloWQhKSOShHV8TY2VoBcaV-nkHUsaY7JN8ZyXrGdF1TMYb1Pu_3Ry__8QhKeBhPqeSGjl1KaHnj9KMbwYBMwekI9zzil_PfuSd_Z1VzzDjkUE%3D&q=CELEBRATION+TENT+AND+LIGHTING+HOUSE+INC.+Reviews&sa=X&ved=2ahUKEwj18MGi6veRAxUbIjQIHRoeJcAQ0bkNegQIHBAD&biw=1396&bih=632&dpr=1.38#lrd=0x5485dbc6ea3a76ef:0x2ebc1cb20c981a3b,3,,,," target="_blank" rel="noopener noreferrer">
+                    Write a review
+                  </a>
                 </Button>
               </div>
-              <p className="text-sm text-muted-foreground mb-4">7809 122 St, Surrey, BC</p>
 
               <div className="flex items-center gap-3 mb-6">
                 <span className="text-4xl font-bold">5.0</span>
@@ -226,7 +225,7 @@ export default function HomePage() {
                       <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                     ))}
                   </div>
-                  <p className="text-sm text-muted-foreground">79 reviews</p>
+                  {/* <p className="text-sm text-muted-foreground">79 reviews</p> */}
                 </div>
               </div>
 
@@ -240,7 +239,7 @@ export default function HomePage() {
                     <div className="flex-1">
                       <div className="flex items-center justify-between mb-2">
                         <div>
-                          <p className="font-semibold">Dalbir Bagha</p>
+                          <p className="font-semibold">Parmod Kumar</p>
                           <p className="text-sm text-muted-foreground">4 reviews</p>
                         </div>
                       </div>
@@ -251,10 +250,9 @@ export default function HomePage() {
                       </div>
                       <p className="text-sm text-muted-foreground mb-2">a week ago</p>
                       <p className="text-sm leading-relaxed">
-                        This company is great for all your event needs. They helped me out in a last minute crisis due
-                        to the other tent company not showing up on time. The team was very professional and efficient.
-                        They even went above and beyond by helping us setup as requested. The owners and team were very
-                        pleasant to deal with. I recommend this company for your next event.
+                        Excellent service from start to finish! The team was professional, friendly, and very easy to work with. All our questions were answered quickly, and they offered great options at reasonable prices. Everything was set up on time and looked amazing.
+
+                        Big thanks to Celebration Tent & Lighting House for making our event memorable. Highly recommended!
                       </p>
                     </div>
                   </div>
@@ -267,10 +265,10 @@ export default function HomePage() {
               <h3 className="text-2xl font-bold mb-6">ABOUT US</h3>
 
               <p className="text-muted-foreground leading-relaxed mb-8">
-                At Celebration Tent and Lighting House Inc., we prioritize customer appreciation and offer top-notch service, quality tents, and
-                competitive pricing. Whether it's a wedding, birthday, or corporate gathering, we ensure your event is
-                unforgettable with our elegant marquees and sturdy frames. We believe in the finest tents and
-                accessories, and genuinely care about making your celebration truly memorable. Contact us today!
+                Celebration Tent and Lighting House Inc. is your trusted partner for exceptional event rentals in Surrey
+                and the Greater Vancouver area. We take pride in delivering premium quality equipment, reliable service,
+                and competitive rates. From intimate gatherings to grand celebrations, our experienced team ensures
+                every detail is perfect. Let us help you create moments that last a lifetime.
               </p>
 
               <div className="mb-8">
@@ -278,23 +276,23 @@ export default function HomePage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-sm">Family-Owned and Customer-Centric</span>
+                    <span className="text-sm">Locally Owned & Operated</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-sm">Attention to Detail</span>
+                    <span className="text-sm">Same-Day Setup Available</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-sm">Unmatched Quality and Reliability</span>
+                    <span className="text-sm">Premium Quality Equipment</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-sm">Excellent Customer Service</span>
+                    <span className="text-sm">5-Star Customer Reviews</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-sm">Competitive Pricing</span>
+                    <span className="text-sm">Transparent Pricing</span>
                   </div>
                   <div className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
@@ -398,16 +396,16 @@ export default function HomePage() {
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
                   <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm">7809 122 St, Surrey, BC</span>
+                  <span className="text-sm">13062 61a Ave, Surrey, BC V3X 2G8</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-5 h-5 flex-shrink-0" />
                   <span className="text-sm">(604) 750-9113</span>
                 </div>
-                <div className="flex items-start gap-2">
+                {/* <div className="flex items-start gap-2">
                   <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
                   <span className="text-sm">ApnaTentandPartyRentals@gmail.com</span>
-                </div>
+                </div> */}
               </div>
               <div className="flex gap-3 mt-4">
                 <a

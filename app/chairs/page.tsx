@@ -6,32 +6,32 @@ import { ChevronLeft } from "lucide-react"
 export default function ChairsPage() {
   const products = [
     {
-      name: "Classic Event Chairs",
+      name: "White Folding Chairs",
       description:
-        "Elegant and comfortable chairs perfect for weddings and formal events. Our classic collection features premium seating that adds sophistication to any celebration.",
+        "Versatile and reliable folding chairs ideal for any event. Lightweight yet sturdy, these chairs are perfect for ceremonies, receptions, and outdoor gatherings.",
       image: "/Chairs/chair2.jpg",
-      features: ["Comfortable seating", "Elegant design", "Perfect for weddings", "Professional appearance"],
+      features: ["Easy to transport", "Weather resistant", "Guest comfort", "Quick setup"],
     },
     {
-      name: "Premium Banquet Chairs",
+      name: "Padded Event Chairs",
       description:
-        "High-quality banquet chairs designed for large gatherings. Sturdy construction ensures durability while maintaining a refined aesthetic for your special occasion.",
+        "Extra comfort meets classic style. Our padded chairs ensure your guests stay comfortable throughout longer events like weddings and conferences.",
       image: "/Chairs/chair3.jpg",
-      features: ["Sturdy construction", "Stackable", "Easy to arrange", "Multiple color options"],
+      features: ["Cushioned seats", "Ergonomic design", "Formal appearance", "Stackable"],
     },
     {
-      name: "Designer Event Seating",
+      name: "Chiavari Chairs",
       description:
-        "Our designer seating collection brings a unique style to your celebration. Perfect for outdoor weddings, garden parties, and upscale corporate events.",
+        "Timeless elegance for upscale celebrations. These beautiful chairs are a wedding favorite, adding a touch of sophistication to any venue.",
       image: "/Chairs/chair4.jpg",
-      features: ["Designer aesthetic", "Comfortable", "Versatile styling", "Premium quality"],
+      features: ["Gold or silver options", "Classic design", "Photo-ready", "Premium quality"],
     },
     {
-      name: "Luxury Wedding Chairs",
+      name: "Garden Party Seating",
       description:
-        "Create unforgettable memories with our luxury wedding chair collection. These chairs combine comfort with elegance for your most special day.",
+        "Outdoor-ready seating perfect for garden parties and patio celebrations. Durable construction handles any weather while maintaining style.",
       image: "/Chairs/home4-BzHD3TNY.webp",
-      features: ["Luxury finish", "Wedding perfect", "Timeless design", "Guest comfort"],
+      features: ["All-weather", "Rustic charm", "Comfortable", "Easy maintenance"],
     },
   ]
 
@@ -98,7 +98,7 @@ export default function ChairsPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg">Chairs</h1>
           <p className="text-white text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
-            Take a seat in style with our elegant chairs and enhance the sophistication and comfort.
+            From folding chairs to elegant chiavari, find the perfect seating for your celebration.
           </p>
         </div>
       </section>

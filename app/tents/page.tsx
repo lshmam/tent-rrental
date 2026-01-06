@@ -6,18 +6,18 @@ import { ChevronLeft } from "lucide-react"
 export default function TentsPage() {
   const products = [
     {
-      name: "Frame Tent",
+      name: "Clear Span Frame Tent",
       description:
-        "Our premium frame tents are perfect for any outdoor event. They feature a sturdy aluminum frame structure that requires no center poles, giving you maximum usable space. Ideal for weddings, corporate events, and festivals.",
+        "No center poles means 100% usable space. Our frame tents are engineered for stability and can be installed on any surface including concrete, grass, or decking.",
       image: "/Tents/frametent.jpg",
-      features: ["No center poles", "Weather resistant", "Customizable size", "Professional setup included"],
+      features: ["Pole-free interior", "All surfaces", "10x10 to 40x80", "Wind rated"],
     },
     {
-      name: "Marquee Tent",
+      name: "High Peak Marquee Tent",
       description:
-        "Classic and elegant marquee tents create a stunning atmosphere for your special events. These traditional tents feature high peaks and flowing lines that add sophistication and grandeur to any occasion.",
+        "Dramatic peaks and elegant draping create show-stopping venues. Popular for weddings and galas. Available with optional sidewalls and lighting.",
       image: "/Tents/marqueetent.jpg",
-      features: ["High peak design", "Elegant appearance", "Quick installation", "Various sizes available"],
+      features: ["Dramatic silhouette", "Sidewalls available", "Lighting ready", "Quick install"],
     },
   ]
 
@@ -84,7 +84,7 @@ export default function TentsPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg">Tents</h1>
           <p className="text-white text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
-            Get ready to elevate your event with our rental tents. Experience the perfect blend of style and professionalism.
+            Weather-proof structures professionally installed on any surface. From intimate gatherings to grand celebrations.
           </p>
         </div>
       </section>

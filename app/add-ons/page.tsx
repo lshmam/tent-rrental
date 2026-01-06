@@ -6,39 +6,39 @@ import { ChevronLeft } from "lucide-react"
 export default function AddOnsPage() {
   const products = [
     {
-      name: "Chandeliers",
+      name: "Crystal Chandeliers",
       description:
-        "Stunning chandeliers that add elegance and grandeur to your event. Create a luxurious atmosphere with our beautiful crystal and designer chandeliers.",
+        "Make a statement with our stunning crystal chandeliers. Each piece creates a focal point that photographs beautifully and impresses every guest.",
       image: "/Miscellaneous/chandelier.jpg",
-      features: ["Crystal designs", "Multiple styles", "Elegant ambiance", "Professional installation"],
+      features: ["Crystal detail", "Dimmable", "Various sizes", "Installed by us"],
     },
     {
-      name: "String Lights",
+      name: "Bistro String Lights",
       description:
-        "Beautiful string lights create a magical, romantic atmosphere. Perfect for outdoor weddings, garden parties, and evening celebrations.",
+        "Create enchanting ambiance with warm Edison-style bulbs. Ideal for ceiling canopies, tree wrapping, and perimeter lighting.",
       image: "/Miscellaneous/stringlight.jpg",
-      features: ["Warm glow", "Indoor & outdoor", "Multiple lengths", "Easy setup"],
+      features: ["Warm glow", "Outdoor rated", "100ft strands", "Connectable"],
     },
     {
-      name: "White Lights",
+      name: "Uplighting Package",
       description:
-        "Professional white lighting solutions to illuminate your venue beautifully. Create the perfect bright, clean ambiance for any celebration.",
+        "Transform your venue with wireless LED uplights. Choose any color to match your theme. Creates dramatic atmosphere for photos and dancing.",
       image: "/Miscellaneous/whitelight.jpg",
-      features: ["Bright illumination", "Clean appearance", "Multiple configurations", "Energy efficient"],
+      features: ["16M colors", "Wireless", "App control", "Battery powered"],
     },
     {
-      name: "Portable Bars",
+      name: "Rustic Bar Setup",
       description:
-        "Stylish portable bar setups for serving drinks with elegance. Perfect for weddings, corporate events, and private parties.",
+        "Fully decorated bar stations ready for your bartender. Includes back bar shelving, ice bins, and decorative elements.",
       image: "/Miscellaneous/bars.png",
-      features: ["Professional appearance", "Multiple styles", "Complete setup", "Serving accessories"],
+      features: ["Turn-key", "Rustic or modern", "Ice included", "Glassware rental"],
     },
     {
-      name: "Cooling Fans",
+      name: "Industrial Cooling Fans",
       description:
-        "Keep your guests comfortable with our powerful cooling fans. Essential for outdoor summer events and large tent gatherings.",
+        "Beat the heat with our powerful drum fans. Essential for summer tent events. Quiet enough for conversation, strong enough for crowds.",
       image: "/Miscellaneous/fans.jpg",
-      features: ["Powerful cooling", "Quiet operation", "Various sizes", "Outdoor safe"],
+      features: ["High CFM", "Low noise", "GFCI safe", "Misting option"],
     },
   ]
 
@@ -105,7 +105,7 @@ export default function AddOnsPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg">Add-ons</h1>
           <p className="text-white text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
-            We've got you covered with our fantastic add-ons to take your event to the next level.
+            Chandeliers, string lights, portable bars, and cooling fans. The finishing touches for your event.
           </p>
         </div>
       </section>

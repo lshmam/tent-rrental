@@ -6,39 +6,39 @@ import { ChevronLeft } from "lucide-react"
 export default function FloorsPage() {
   const products = [
     {
-      name: "Dance Floor",
+      name: "LED Dance Floor",
       description:
-        "Professional dance floors create the perfect space for your guests to celebrate. Available in various styles and finishes to match your event aesthetic.",
+        "Light up the night with our interactive LED dance floor. Customizable colors and patterns sync with your music for an unforgettable dance experience.",
       image: "/Floors/floor1.jpg",
-      features: ["Smooth surface", "Various sizes", "Professional finish", "Quick installation"],
+      features: ["Color changing", "Music sync", "Wow factor", "Safe surface"],
     },
     {
-      name: "Premium Event Flooring",
+      name: "Classic Wood Dance Floor",
       description:
-        "High-quality event flooring that transforms any venue. Our premium flooring solutions ensure a polished, elegant foundation for your celebration.",
+        "Timeless oak-finish dance flooring that looks stunning in photos. Modular sections connect seamlessly for any size dance area.",
       image: "/Floors/floor2.jpg",
-      features: ["Premium quality", "Elegant appearance", "Durable construction", "Easy maintenance"],
+      features: ["Oak finish", "Any size", "Photo-ready", "Non-slip"],
     },
     {
-      name: "Outdoor Event Flooring",
+      name: "Outdoor Ground Protection",
       description:
-        "Weather-resistant outdoor flooring solutions for grass, sand, or uneven terrain. Keep your event clean and accessible regardless of weather conditions.",
+        "Keep feet clean and dry with our turf-protection flooring. Essential for lawn weddings and outdoor festivals. Protects both guests and grass.",
       image: "/Floors/floor3.jpg",
-      features: ["Weather resistant", "Level surface", "Easy to clean", "Prevents mud"],
+      features: ["Grass friendly", "Level surface", "Rain or shine", "ADA compliant"],
     },
     {
-      name: "Modular Flooring Tiles",
+      name: "Checkered Dance Floor",
       description:
-        "Versatile modular flooring tiles perfect for custom layouts. Create unique patterns and designs to match your event theme.",
+        "Retro vibes with our black and white checkered flooring. Perfect for themed parties, corporate events, and milestone celebrations.",
       image: "/Floors/floor4.jpg",
-      features: ["Customizable patterns", "Easy installation", "Portable", "Multiple styles"],
+      features: ["Classic pattern", "High contrast", "Party perfect", "Easy clean"],
     },
     {
-      name: "Stage & Platform Flooring",
+      name: "Portable Stage Platform",
       description:
-        "Elevated stage flooring perfect for performances, speeches, and entertainment. Create a focal point for your event with professional staging.",
+        "Elevate your entertainment with professional staging. Adjustable heights from 8 inches to 4 feet. Perfect for bands, speakers, and ceremonies.",
       image: "/Floors/floor5.jpg",
-      features: ["Elevated platform", "Customizable size", "Professional appearance", "Safe and stable"],
+      features: ["Adjustable height", "Skirting included", "Heavy-duty", "Step access"],
     },
   ]
 
@@ -105,7 +105,7 @@ export default function FloorsPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg">Floors</h1>
           <p className="text-white text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
-            Dance the night away on our stylish flooring options.
+            LED dance floors, classic wood, and outdoor ground protection. Get your guests moving in style.
           </p>
         </div>
       </section>

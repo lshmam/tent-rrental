@@ -6,25 +6,25 @@ import { ChevronLeft } from "lucide-react"
 export default function TablesPage() {
   const products = [
     {
-      name: "Round Banquet Tables",
+      name: "60-Inch Round Tables",
       description:
-        "Classic round tables perfect for dining and socializing. Available in various sizes to accommodate different guest counts. Ideal for weddings, receptions, and banquets.",
-      image: "/Tables/table1.png",
-      features: ["Multiple sizes", "Promotes conversation", "Space efficient", "Professional linens available"],
-    },
-    {
-      name: "Rectangular Event Tables",
-      description:
-        "Versatile rectangular tables suitable for buffets, head tables, and conference setups. Strong and stable construction for any event need.",
+        "The go-to choice for wedding receptions and banquets. Seats 8-10 guests comfortably. Linens available in white, ivory, and black.",
       image: "/Tables/table2.png",
-      features: ["Various lengths", "Versatile use", "Sturdy construction", "Easy to arrange"],
+      features: ["Seats 8-10 guests", "Linens included", "Stable base", "Easy setup"],
     },
     {
-      name: "Premium Dining Tables",
+      name: "6-Foot Rectangular Tables",
       description:
-        "Elegant dining tables that create the perfect setting for formal occasions. Our premium collection ensures your guests dine in style.",
+        "Ideal for buffets, registration, and family-style dining. Strong construction supports heavy loads. Perfect for any event configuration.",
       image: "/Tables/table3.png",
-      features: ["Elegant design", "Premium finish", "Stable surface", "Perfect for formal events"],
+      features: ["Heavy-duty", "Foldable", "Multi-purpose", "Scratch resistant"],
+    },
+    {
+      name: "Cocktail Tables",
+      description:
+        "High-top tables perfect for mingling and appetizer stations. Available with black or white linens. Great for cocktail hours and networking events.",
+      image: "/Tables/table1.png",
+      features: ["Standing height", "Compact footprint", "Modern look", "Stable design"],
     },
   ]
 
@@ -91,7 +91,7 @@ export default function TablesPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg">Tables</h1>
           <p className="text-white text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
-            Gather around in style with our sleek tables and create a memorable evening with our elegant and versatile options.
+            Round, rectangular, and cocktail tables with linens included. Quality rentals for any event size.
           </p>
         </div>
       </section>

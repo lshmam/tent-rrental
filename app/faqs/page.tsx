@@ -49,11 +49,11 @@ export default function FAQsPage() {
       answer:
         "Yes! We offer a wide selection of table linens, chair covers, and basic decorative elements. Colors and styles can be customized to match your event theme. These are available as add-ons to your rental package.",
     },
-    {
-      question: "How do I get a quote?",
-      answer:
-        "Getting a quote is easy! You can call us at (604) 750-9113, email ApnaTentandPartyRentals@gmail.com, or fill out our contact form. Provide details about your event date, location, guest count, and items needed for an accurate quote.",
-    },
+    // {
+    //   question: "How do I get a quote?",
+    //   answer:
+    //     "Getting a quote is easy! You can call us at (604) 750-9113, email ApnaTentandPartyRentals@gmail.com, or fill out our contact form. Provide details about your event date, location, guest count, and items needed for an accurate quote.",
+    // },
     {
       question: "Do you offer tours or consultations?",
       answer:
@@ -129,7 +129,7 @@ export default function FAQsPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg">Frequently Asked Questions</h1>
           <p className="text-white text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
-            Find answers to common questions about our rental services. Can't find what you're looking for? Contact us directly!
+            Everything you need to know about booking, delivery, and setup. Still have questions? Give us a call!
           </p>
         </div>
       </section>
@@ -162,12 +162,12 @@ export default function FAQsPage() {
             >
               Call (604) 750-9113
             </Link>
-            <Link
+            {/* <Link
               href="mailto:ApnaTentandPartyRentals@gmail.com"
               className="inline-flex items-center justify-center px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-md font-medium transition-colors"
             >
               Email Us
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
