@@ -28,7 +28,7 @@ export default function HomePage() {
               <br />
               UNFORGETTABLE MOMENTS
             </h1>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-6 md:mb-8 leading-relaxed text-pretty">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-6 md:mb-8 leading-relaxed text-pretty text-white">
               Transform any venue into a stunning celebration space. From premium tent structures and elegant furniture
               to ambient lighting and decor, we bring your vision to life. Serving Surrey and the Greater Vancouver area
               with exceptional event rentals.
