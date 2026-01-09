@@ -23,7 +23,7 @@ export default function ChairsPage() {
       price: "$3",
       description:
         "Outdoor-ready seating perfect for garden parties and patio celebrations. Durable construction handles any weather while maintaining style.",
-      image: "/Chairs/garden-chair.jpg",
+      image: "garden-chair.jpeg",
       features: ["All-weather", "Rustic charm", "Comfortable", "Easy maintenance"],
     },
   ]
