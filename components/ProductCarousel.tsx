@@ -9,13 +9,13 @@ const products = [
     {
         name: "Tents",
         href: "/tents",
-        image: "/Home/tent-B-XoR1K7.png",
+        image: "/marque-tent.jpeg",
         description: "Premium frame and marquee tents for any occasion. Weather-resistant and professionally installed.",
     },
     {
         name: "Chairs",
         href: "/chairs",
-        image: "/Home/chair-BU4z2K9L.png",
+        image: "/garden-chair.jpeg",
         description: "Comfortable seating options from classic folding to elegant chiavari. Perfect for any guest count.",
     },
     {
@@ -73,8 +73,8 @@ export default function ProductCarousel() {
                             src={currentProduct.image}
                             alt={currentProduct.name}
                             className={`w-full h-full object-contain p-8 transition-opacity duration-300 ${currentProduct.name === "Tents" || currentProduct.name === "Chairs"
-                                    ? "invert"
-                                    : ""
+                                ? "invert"
+                                : ""
                                 }`}
                         />
                     </Link>

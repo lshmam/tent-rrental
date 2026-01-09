@@ -12,18 +12,18 @@ export default function ChairsPage() {
   const products = [
     {
       name: "White Folding Chairs",
-      price: "$3",
+      price: "$2",
       description:
         "Versatile and reliable folding chairs ideal for any event. Lightweight yet sturdy, these chairs are perfect for ceremonies, receptions, and outdoor gatherings.",
       image: "/Chairs/chair2.jpg",
       features: ["Easy to transport", "Weather resistant", "Guest comfort", "Quick setup"],
     },
     {
-      name: "Garden Party Seating",
+      name: "Garden Padded Chair",
       price: "$3",
       description:
         "Outdoor-ready seating perfect for garden parties and patio celebrations. Durable construction handles any weather while maintaining style.",
-      image: "/Chairs/home4-BzHD3TNY.webp",
+      image: "/Chairs/garden-chair.jpg",
       features: ["All-weather", "Rustic charm", "Comfortable", "Easy maintenance"],
     },
   ]
