@@ -124,9 +124,9 @@ export default function SoundPage() {
                             </div>
 
                             <Button asChild className="w-full bg-blue-600 hover:bg-blue-700 text-white">
-                                <a href="tel:6047509113" className="flex items-center justify-center gap-2">
+                                <a href="tel:6047511404" className="flex items-center justify-center gap-2">
                                     <Phone className="w-4 h-4" />
-                                    Call (604) 750-9113 for a Quote
+                                    Call (604) 751-1404 for a Quote
                                 </a>
                             </Button>
                         </CardContent>

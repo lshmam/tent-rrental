@@ -72,7 +72,10 @@ export default function ProductCarousel() {
                         <img
                             src={currentProduct.image}
                             alt={currentProduct.name}
-                            className="w-full h-full object-contain p-8 transition-opacity duration-300"
+                            className={`w-full h-full object-contain p-8 transition-opacity duration-300 ${currentProduct.name === "Tents" || currentProduct.name === "Chairs"
+                                    ? "invert"
+                                    : ""
+                                }`}
                         />
                     </Link>
 

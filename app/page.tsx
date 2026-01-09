@@ -35,8 +35,8 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8">
-                <a href="tel:6047509113" className="flex items-center gap-2">
-                  📞 Call (604) 750-9113
+                <a href="tel:6047511404" className="flex items-center gap-2">
+                  📞 Call (604) 751-1404
                 </a>
               </Button>
             </div>
