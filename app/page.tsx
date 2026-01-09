@@ -22,13 +22,13 @@ export default function HomePage() {
         </div>
 
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <div className="bg-black/30 backdrop-blur-sm rounded-2xl px-8 py-12 max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-balance">
+          <div className="bg-black/30 backdrop-blur-sm rounded-2xl px-4 md:px-8 py-8 md:py-12 max-w-4xl mx-auto">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 md:mb-6 text-balance leading-tight">
               CREATE
               <br />
               UNFORGETTABLE MOMENTS
             </h1>
-            <p className="text-white text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed text-pretty">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-6 md:mb-8 leading-relaxed text-pretty">
               Transform any venue into a stunning celebration space. From premium tent structures and elegant furniture
               to ambient lighting and decor, we bring your vision to life. Serving Surrey and the Greater Vancouver area
               with exceptional event rentals.
