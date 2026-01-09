@@ -12,6 +12,7 @@ export default function TentsPage() {
   const products = [
     {
       name: "High Peak Marquee Tent",
+      price: "$230",
       description:
         "Dramatic peaks and elegant draping create show-stopping venues. Popular for weddings and galas. Available with optional sidewalls and lighting. Weather-resistant and professionally installed.",
       image: "/tent.jpeg",
@@ -99,6 +100,7 @@ export default function TentsPage() {
 
             <CardContent className="p-6">
               <h3 className="text-xl font-bold mb-2 text-blue-600">{products[currentSlide].name}</h3>
+              <p className="text-2xl font-bold text-green-600 mb-3">{products[currentSlide].price}</p>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 {products[currentSlide].description}
               </p>

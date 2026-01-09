@@ -12,6 +12,7 @@ export default function TablesPage() {
   const products = [
     {
       name: "60-Inch Round Tables",
+      price: "$10",
       description:
         "The go-to choice for wedding receptions and banquets. Seats 8-10 guests comfortably. Linens available in white, ivory, and black.",
       image: "/Tables/table2.png",
@@ -19,6 +20,7 @@ export default function TablesPage() {
     },
     {
       name: "6-Foot Rectangular Tables",
+      price: "$10",
       description:
         "Ideal for buffets, registration, and family-style dining. Strong construction supports heavy loads. Perfect for any event configuration.",
       image: "/Tables/table3.png",
@@ -26,6 +28,7 @@ export default function TablesPage() {
     },
     {
       name: "Cocktail Tables",
+      price: "$10",
       description:
         "High-top tables perfect for mingling and appetizer stations. Available with black or white linens. Great for cocktail hours and networking events.",
       image: "/Tables/table1.png",
@@ -109,6 +112,7 @@ export default function TablesPage() {
 
             <CardContent className="p-6">
               <h3 className="text-xl font-bold mb-2 text-blue-600">{products[currentSlide].name}</h3>
+              <p className="text-2xl font-bold text-green-600 mb-3">{products[currentSlide].price}</p>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 {products[currentSlide].description}
               </p>

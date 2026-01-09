@@ -12,6 +12,7 @@ export default function ChairsPage() {
   const products = [
     {
       name: "White Folding Chairs",
+      price: "$3",
       description:
         "Versatile and reliable folding chairs ideal for any event. Lightweight yet sturdy, these chairs are perfect for ceremonies, receptions, and outdoor gatherings.",
       image: "/Chairs/chair2.jpg",
@@ -19,6 +20,7 @@ export default function ChairsPage() {
     },
     {
       name: "Garden Party Seating",
+      price: "$3",
       description:
         "Outdoor-ready seating perfect for garden parties and patio celebrations. Durable construction handles any weather while maintaining style.",
       image: "/Chairs/home4-BzHD3TNY.webp",
@@ -102,6 +104,7 @@ export default function ChairsPage() {
 
             <CardContent className="p-6">
               <h3 className="text-xl font-bold mb-2 text-blue-600">{products[currentSlide].name}</h3>
+              <p className="text-2xl font-bold text-green-600 mb-3">{products[currentSlide].price}</p>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 {products[currentSlide].description}
               </p>
