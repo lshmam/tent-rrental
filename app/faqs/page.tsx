@@ -77,14 +77,18 @@ export default function FAQsPage() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/Home/home4-BzHD3TNY.webp')",
+            backgroundImage: "url('/wedding.jpg')",
           }}
-        />
+        >
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg">Frequently Asked Questions</h1>
-          <p className="text-white text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
-            Everything you need to know about booking, delivery, and setup. Still have questions? Give us a call!
-          </p>
+          <div className="bg-black/50 backdrop-blur-sm rounded-2xl px-8 py-6 max-w-3xl mx-auto">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">FAQs</h1>
+            <p className="text-white text-lg md:text-xl max-w-3xl mx-auto">
+              Your questions answered. Find everything you need to know about our rental services.
+            </p>
+          </div>
         </div>
       </section>
 

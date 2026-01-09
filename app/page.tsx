@@ -1,8 +1,9 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Star, CheckCircle2, MapPin, Phone, Mail, Instagram, Facebook } from "lucide-react"
+import { Star, CheckCircle2 } from "lucide-react"
 import Header from "@/components/Header"
+import ProductCarousel from "@/components/ProductCarousel"
 
 export default function HomePage() {
   return (
@@ -14,35 +15,31 @@ export default function HomePage() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/Home/home4-BzHD3TNY.webp')",
+            backgroundImage: "url('/wedding.jpg')",
           }}
         >
-          <div className="absolute inset-0 " />
+          <div className="absolute inset-0 bg-black/5" />
         </div>
 
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-balance">
-            CREATE
-            <br />
-            UNFORGETTABLE MOMENTS
-          </h1>
-          <p className="text-white text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed text-pretty">
-            Transform any venue into a stunning celebration space. From premium tent structures and elegant furniture
-            to ambient lighting and decor, we bring your vision to life. Serving Surrey and the Greater Vancouver area
-            with exceptional event rentals.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8">
-              <Link href="#contact">REQUEST BOOKING</Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="bg-orange-500 hover:bg-orange-600 text-white border-0 px-8"
-            >
-              <Link href="#contact">GET IN TOUCH</Link>
-            </Button>
+          <div className="bg-black/30 backdrop-blur-sm rounded-2xl px-8 py-12 max-w-4xl mx-auto">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-balance">
+              CREATE
+              <br />
+              UNFORGETTABLE MOMENTS
+            </h1>
+            <p className="text-white text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed text-pretty">
+              Transform any venue into a stunning celebration space. From premium tent structures and elegant furniture
+              to ambient lighting and decor, we bring your vision to life. Serving Surrey and the Greater Vancouver area
+              with exceptional event rentals.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8">
+                <a href="tel:6047509113" className="flex items-center gap-2">
+                  📞 Call (604) 750-9113
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -51,86 +48,7 @@ export default function HomePage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12 text-primary">PRODUCTS</h2>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {/* Tents */}
-            <Link href="/tents">
-              <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
-                <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src="/Home/tent-B-XoR1K7.png" alt="Tents" className="w-full h-full object-contain" />
-                </div>
-                <CardContent className="p-3 md:p-6 text-center">
-                  <h3 className="text-base md:text-xl font-semibold mb-1 md:mb-2 text-blue-600">Tents</h3>
-                  <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-3">1 Product</p>
-                  <p className="text-xs md:text-sm hidden md:block">
-                    Premium frame and marquee tents for any occasion. Weather-resistant and professionally installed.
-                  </p>
-                </CardContent>
-              </Card>
-            </Link>
-
-            {/* Chairs */}
-            <Link href="/chairs">
-              <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
-                <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src="/Home/chair-BU4z2K9L.png" alt="Chairs" className="w-full h-full object-contain" />
-                </div>
-                <CardContent className="p-3 md:p-6 text-center">
-                  <h3 className="text-base md:text-xl font-semibold mb-1 md:mb-2 text-blue-600">Chairs</h3>
-                  <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-3">2 Products</p>
-                  <p className="text-xs md:text-sm hidden md:block">
-                    Comfortable seating options from classic folding to elegant chiavari. Perfect for any guest count.
-                  </p>
-                </CardContent>
-              </Card>
-            </Link>
-
-            {/* Tables */}
-            <Link href="/tables">
-              <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
-                <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src="/Home/tables-BDhfs_wH.png" alt="Tables" className="w-full h-full object-contain" />
-                </div>
-                <CardContent className="p-3 md:p-6 text-center">
-                  <h3 className="text-base md:text-xl font-semibold mb-1 md:mb-2 text-blue-600">Tables</h3>
-                  <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-3">3 Products</p>
-                  <p className="text-xs md:text-sm hidden md:block">
-                    Round, rectangular, and cocktail tables available. Complete with linens for a polished look.
-                  </p>
-                </CardContent>
-              </Card>
-            </Link>
-
-            {/* Floors */}
-            <Link href="/floors">
-              <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
-                <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src="/Home/floors-Enx67mKI.png" alt="Floors" className="w-full h-full object-contain" />
-                </div>
-                <CardContent className="p-3 md:p-6 text-center">
-                  <h3 className="text-base md:text-xl font-semibold mb-1 md:mb-2 text-blue-600">Floors</h3>
-                  <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-3">3 Products</p>
-                  <p className="text-xs md:text-sm hidden md:block">Professional dance floors and staging platforms for memorable celebrations.</p>
-                </CardContent>
-              </Card>
-            </Link>
-
-            {/* Add-ons */}
-            <Link href="/add-ons">
-              <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
-                <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src="/Home/bars-Cwrx78BG.png" alt="Add-ons" className="w-full h-full object-contain" />
-                </div>
-                <CardContent className="p-3 md:p-6 text-center">
-                  <h3 className="text-base md:text-xl font-semibold mb-1 md:mb-2 text-blue-600">Add-ons</h3>
-                  <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-3">4 Products</p>
-                  <p className="text-xs md:text-sm hidden md:block">
-                    Lighting, fans, bars, and more. Everything you need to complete your event setup.
-                  </p>
-                </CardContent>
-              </Card>
-            </Link>
-          </div>
+          <ProductCarousel />
         </div>
       </section>
 
@@ -242,7 +160,7 @@ export default function HomePage() {
       </section>
 
       {/* Contact Form */}
-      <section id="contact" className="py-16 bg-gray-50">
+      {/* <section id="contact" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl font-bold text-center mb-8">Get In Touch</h2>
           <Card>
@@ -316,124 +234,7 @@ export default function HomePage() {
             </CardContent>
           </Card>
         </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="bg-blue-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            {/* Company Info */}
-            <div>
-              <h3 className="text-xl font-bold mb-4">Celebration Tent & Lighting</h3>
-              <div className="space-y-3">
-                <div className="flex items-start gap-2">
-                  <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm">13062 61a Ave, Surrey, BC V3X 2G8</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="w-5 h-5 flex-shrink-0" />
-                  <span className="text-sm">(604) 750-9113</span>
-                </div>
-                {/* <div className="flex items-start gap-2">
-                  <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm">ApnaTentandPartyRentals@gmail.com</span>
-                </div> */}
-              </div>
-              <div className="flex gap-3 mt-4">
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-blue-400 transition-colors"
-                >
-                  <Instagram className="w-6 h-6" />
-                </a>
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-blue-400 transition-colors"
-                >
-                  <Facebook className="w-6 h-6" />
-                </a>
-              </div>
-            </div>
-
-            {/* Services */}
-            <div>
-              <h4 className="font-semibold mb-4">Services</h4>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <Link href="#" className="hover:text-blue-400 transition-colors">
-                    Weddings
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-400 transition-colors">
-                    Corporate
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-400 transition-colors">
-                    Festivals
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-400 transition-colors">
-                    Film Production
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-blue-400 transition-colors">
-                    More
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* Products */}
-            <div>
-              <h4 className="font-semibold mb-4">Products</h4>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <Link href="/tents" className="hover:text-blue-400 transition-colors">
-                    Tents
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/chairs" className="hover:text-blue-400 transition-colors">
-                    Chairs
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/tables" className="hover:text-blue-400 transition-colors">
-                    Tables
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/floors" className="hover:text-blue-400 transition-colors">
-                    Floors
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/add-ons" className="hover:text-blue-400 transition-colors">
-                    Stages
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/add-ons" className="hover:text-blue-400 transition-colors">
-                    Bars
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-blue-800 pt-8 text-center text-sm">
-            <p>© 2026 Celebration Tent and Lighting House Inc. All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
+      </section> */}
     </div>
   )
 }

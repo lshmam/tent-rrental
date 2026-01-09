@@ -44,11 +44,29 @@ export default function Header() {
                             FLOORS
                         </Link>
                         <Link
+                            href="/lighting"
+                            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                        >
+                            LIGHTING
+                        </Link>
+                        <Link
+                            href="/sound"
+                            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                        >
+                            SOUND
+                        </Link>
+                        <Link
+                            href="/fans"
+                            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                        >
+                            FANS
+                        </Link>
+                        {/* <Link
                             href="/add-ons"
                             className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
                         >
                             ADD-ONS
-                        </Link>
+                        </Link> */}
                         <Link
                             href="/faqs"
                             className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
@@ -85,9 +103,18 @@ export default function Header() {
                             <Link href="/floors" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
                                 FLOORS
                             </Link>
-                            <Link href="/add-ons" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
-                                ADD-ONS
+                            <Link href="/lighting" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                                LIGHTING
                             </Link>
+                            <Link href="/sound" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                                SOUND
+                            </Link>
+                            <Link href="/fans" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                                FANS
+                            </Link>
+                            {/* <Link href="/add-ons" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                                ADD-ONS
+                            </Link> */}
                             <Link href="/faqs" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
                                 FAQS
                             </Link>
